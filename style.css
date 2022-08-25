@@ -277,6 +277,7 @@ span.legend-icon {
   width: 280px;
   background: #383838;
   color: #ffffff;
+  font: 10px;
   margin-top: 0 !important;
   overflow: hidden;
 }
