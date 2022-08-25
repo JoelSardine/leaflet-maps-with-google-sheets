@@ -930,7 +930,6 @@ $(window).on('load', function() {
     }).addTo(map);
     L.control.attribution({
       position: trySetting('_mapAttribution', 'bottomright')
-      setPrefix(false)
     }).addTo(map);
   }
   
