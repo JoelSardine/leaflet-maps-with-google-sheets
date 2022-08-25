@@ -900,8 +900,22 @@ $(window).on('load', function() {
    /**
    * Changes map attribution (author, GitHub repo, email etc.) in bottom-right
    */
-  new L.Map('container', {
-    'attributionControl': false
+    function changeAttribution() {
+    var attributionHTML = $('.leaflet-control-attribution').hide()
+
+    if (name && url) {
+      if (url.indexOf('@') > 0) { url = 'mailto:' + url; }
+      credit += ' by <a href="' + url + '">' + name + '</a> | ';
+    } else if (name) {
+      credit += ' by ' + name + ' | ';
+    } else {
+      credit += ' | ';
+    }
+
+    credit += 'View <a href="' + getSetting('_githubRepo') + '">code</a>';
+    if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
+    credit += ' with ';
+    $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
 
 /**
