@@ -29,8 +29,8 @@ h6 {
 }
 
 .intro-popup .leaflet-popup-tip-container {
-  width: 0;
-  height: 0;
+  width: 30;
+  height: 50;
 }
 
 .pointer {
@@ -39,7 +39,7 @@ h6 {
 
 .leaflet-control-custom {
   padding: 6px 8px;
-  background: white;
+  background: black;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
   color: #333;
   border-radius: 5px;
@@ -82,7 +82,7 @@ form {
 .loader,
 .loader:before,
 .loader:after {
-  background: #000;
+  background: #cccaca;
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
@@ -244,7 +244,7 @@ div.dataTables_scrollHead {
 
 div.dataTables_scrollHead table.display {
   background-color: #444;
-  color: #eee;
+  color: #262626;
 }
 
 select {
@@ -274,7 +274,7 @@ span.legend-icon {
 }
 
 .ladder {
-  width: 180px;
+  width: 240px;
   margin-top: 0 !important;
   overflow: hidden;
 }
