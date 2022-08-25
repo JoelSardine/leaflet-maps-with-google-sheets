@@ -930,7 +930,7 @@ $(window).on('load', function() {
       maxZoom: 18
     }).addTo(map);
     L.control.attribution({
-      position: trySetting('_mapAttribution', 'bottomright')
+      position: trySetting('_mapAttribution', 'false')
     }).addTo(map);
   }
   
