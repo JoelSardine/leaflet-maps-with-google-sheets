@@ -41,7 +41,7 @@ h6 {
   padding: 6px 8px;
   background: black;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-  color: #363636;
+  color: #224ee0;
   border-radius: 5px;
 }
 
@@ -200,7 +200,7 @@ form {
 .polygon-label {
   position: absolute;
   left: -15px;
-  color: #363636;
+  color: #d422e0;
   font-weight: bold;
   opacity: 0.9;
   pointer-events: none !important;
@@ -234,7 +234,7 @@ div.dataTables_scrollBody {
 }
 
 div.dataTables_scrollHead {
-  color: #363636 !important;
+  color: #cc5252 !important;
 }
 
 .dataTable * {
@@ -243,8 +243,8 @@ div.dataTables_scrollHead {
 }
 
 div.dataTables_scrollHead table.display {
-  background-color: #363636;
-  color: #363636;
+  background-color: #cc5252;
+  color: #cc5252;
 }
 
 select {
@@ -274,7 +274,7 @@ span.legend-icon {
 }
 
 .ladder {
-  width: 500px;
+  width: 280px;
   margin-top: 0 !important;
   overflow: hidden;
 }
