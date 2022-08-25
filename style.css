@@ -100,7 +100,7 @@ form {
   animation-delay: -0.32s;
 }
 .loader {
-  color: #000;
+  color: #363636;
   text-indent: -9999em;
   position: absolute;
   left: 50vw;
@@ -165,7 +165,7 @@ form {
   left: 10vw;
   width: 70vw;
   z-index: 1000;
-  background: white;
+  background: black;
   padding: 1vh 5vw;
   opacity: 0.9;
   border: 5px #ddd solid;
@@ -186,7 +186,7 @@ form {
   right: 3px;
   width: 30px;
   background: #bbb;
-  color: white;
+  color: black;
   font-size: 1.4em;
   text-align: center;
   border-radius: 5px;
@@ -234,7 +234,7 @@ div.dataTables_scrollBody {
 }
 
 div.dataTables_scrollHead {
-  color: #eee !important;
+  color: #363636 !important;
 }
 
 .dataTable * {
@@ -244,7 +244,7 @@ div.dataTables_scrollHead {
 
 div.dataTables_scrollHead table.display {
   background-color: #363636;
-  color: #262626;
+  color: #363636;
 }
 
 select {
@@ -269,12 +269,12 @@ span.legend-arrow {
 }
 
 span.legend-icon {
-  color: #bbb;
+  color: #363636;
   margin-right: 5px;
 }
 
 .ladder {
-  width: 300px;
+  width: 500px;
   margin-top: 0 !important;
   overflow: hidden;
 }
