@@ -82,7 +82,7 @@ form {
 .loader,
 .loader:before,
 .loader:after {
-  background: #cccaca;
+  background: #000;
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
@@ -100,7 +100,7 @@ form {
   animation-delay: -0.32s;
 }
 .loader {
-  color: #363636;
+  color: #000;
   text-indent: -9999em;
   position: absolute;
   left: 50vw;
