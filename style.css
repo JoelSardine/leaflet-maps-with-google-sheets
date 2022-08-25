@@ -41,7 +41,7 @@ h6 {
   padding: 6px 8px;
   background: black;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-  color: #333;
+  color: #363636;
   border-radius: 5px;
 }
 
@@ -200,7 +200,7 @@ form {
 .polygon-label {
   position: absolute;
   left: -15px;
-  color: #444;
+  color: #363636;
   font-weight: bold;
   opacity: 0.9;
   pointer-events: none !important;
