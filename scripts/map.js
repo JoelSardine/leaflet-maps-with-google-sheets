@@ -76,8 +76,8 @@ $(window).on('load', function() {
         groups.push(group);
 
         // Add color to the crosswalk
-        group2color[ group ] = points[i]['Marker Icon'].indexOf('.') > 0
-          ? points[i]['Marker Icon']
+        group2color[ group ] = points[i]['Marker Icon 2'].indexOf('.') > 0
+          ? points[i]['Marker Icon 2']
           : points[i]['Marker Color'];
       }
     }
